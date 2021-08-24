@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&family=Oswald:wght@300&display=swap');
+
+/* default */
+
+* { 
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box; 
+}
+
+:root {
+    --primary-color: #FBBF24;
+    --footer-color: #3B82F6;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0px;
+    /* padding-left: 10rem;
+    padding-right: 10rem; */
+}
+
+/* spaces */
+
+.margin-md {
+    padding: 5rem;;
+}
+
+.navbar .hh {
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.navbar {
+    background-color: #FBBF24;
+    text-align: center;
+}
+
+/* .navbar .hh {
+    padding: 4rem;
+} */
+
+textarea {
+    width: 100%;
+    height: 12vh;
+    display: block;
+    margin: 1rem;
+    padding: 4rem;
+}
+
+#btn-translate{
+    background-color: white;
+    color: black;
+    border: 2px solid var(--primary-color); 
+    padding: 15px 35px;
+    display: inline-block;
+    margin: auto;
+}
+
+.a {
+    text-align: center;
+    padding: 1rem;
+}
+
+.a .a1 {
+    padding: 0.5rem;
+}
+
+#output {
+    border: 1px solid black;
+    width: 100%;
+    height: 12vh;
+    margin: 1rem;
+    padding: 4rem;
+}
+
+.container {
+    padding: 0.5rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.section {
+    padding: 1.5rem;
+}
+
+
+.footer {
+    background-color: var(--footer-color);
+}
+
+.footer .f1 {
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* .footer .h3 {
+    padding: 1.rem;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+} */
